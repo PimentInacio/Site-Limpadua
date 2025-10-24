@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Limpádua - Cuidado Certificado para seu Lar</title>
+  <meta name="description" content="Bem-vindo ao novo site da Limpádua. Encontre produtos de limpeza certificados e dicas para um lar mais limpo e seguro.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Folha de Estilo Principal -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- === Cabeçalho === -->
+  <header class="main-header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">Limpádua</a>
+      
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html" class="active">Início</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="dicas.html">Dicas de Limpeza</a></li>
+          <li><a href="institucional.html">Sobre a Limpádua</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+      
+      <button class="menu-toggle" aria-label="Abrir menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Overlay para o menu mobile -->
+  <div id="nav-overlay"></div>
+
+  <!-- === Conteúdo Principal === -->
+  <main>
+
+    <!-- Seção Hero -->
+    <section class="hero" style="background-image: url('assets/images/decoracao-sustentavel.jpeg');">
+      <div class="hero-content">
+        <h1 class="reveal">Cuidado Certificado para seu Lar</h1>
+        <p class="reveal">Descubra a nova geração de produtos de limpeza que une eficiência, segurança e qualidade certificada.</p>
+        <a href="produtos.html" class="btn btn-primary reveal">Conheça Nossos Produtos</a>
+      </div>
+    </section>
+
+    <!-- Seção Diferencial Limpádua -->
+    <section class="section section-bg">
+      <div class="container">
+        <div class="diferencial-grid">
+          <!-- Card 1 -->
+          <div class="diferencial-card reveal">
+            <div class="icon">⭐</div> <!-- Placeholder para ícone -->
+            <h3>Excelência</h3>
+            <p>Fórmulas desenvolvidas com a mais alta tecnologia para garantir a máxima eficiência.</p>
+          </div>
+          <!-- Card 2 -->
+          <div class="diferencial-card reveal">
+            <div class="icon">🛡️</div> <!-- Placeholder para ícone -->
+            <h3>Certificação</h3>
+            <p>Todos os nossos produtos são aprovados e certificados, garantindo segurança para sua família.</p>
+          </div>
+          <!-- Card 3 -->
+          <div class="diferencial-card reveal">
+            <div class="icon">🌱</div> <!-- Placeholder para ícone -->
+            <h3>Qualidade</h3>
+            <p>Ingredientes selecionados e um rigoroso controle de qualidade em cada etapa da produção.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Produtos em Destaque -->
+    <section class="section">
+      <div class="container">
+        <h2 style="text-align: center;" class="reveal">Produtos em Destaque</h2>
+        
+        <div class="carousel-container reveal">
+          <button class="carousel-btn prev" aria-label="Produto anterior">&lt;</button>
+          
+          <div class="carousel-track">
+            <!-- Item 1 -->
+            <div class="carousel-item">
+              <div class="produto-card">
+                <img src="assets/images/multiuso-limpadua.png" alt="Produto Multiuso Premium">
+                <div class="produto-card-content">
+                  <h4>Multiuso</h4>
+                  <span class="categoria">Limpeza Geral</span>
+                  <a href="produtos.html" class="btn btn-primary">Saiba Mais</a>
+                </div>
+              </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="carousel-item">
+              <div class="produto-card">
+                <img src="assets/images/desengordurante.png" alt="Produto Desengordurante Max">
+                <div class="produto-card-content">
+                  <h4>Desengordurante </h4>
+                  <span class="categoria">Cozinha</span>
+                  <a href="produtos.html" class="btn btn-primary">Saiba Mais</a>
+                </div>
+              </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="carousel-item">
+              <div class="produto-card">
+                <img src="assets/images/liquido-lava-roupas.png" alt="Produto Lava Roupas Pure">
+                <div class="produto-card-content">
+                  <h4>Lava Roupas</h4>
+                  <span class="categoria">Lavanderia</span>
+                  <a href="produtos.html" class="btn btn-primary">Saiba Mais</a>
+                </div>
+              </div>
+            </div>
+            <!-- Item 4 -->
+            <div class="carousel-item">
+              <div class="produto-card">
+                <img src="assets/images/limpa-vidro.png" alt="Produto Limpa Vidros Crystal">
+                <div class="produto-card-content">
+                  <h4>Limpa Vidros</h4>
+                  <span class="categoria">Limpeza Geral</span>
+                  <a href="produtos.html" class="btn btn-primary">Saiba Mais</a>
+                </div>
+              </div>
+            </div>
+            <!-- Item 5 -->
+            <div class="carousel-item">
+              <div class="produto-card">
+                <img src="assets/images/perfume-rosa.png" alt="Produto Perfume Home">
+                <div class="produto-card-content">
+                  <h4>Limpador Perfumado</h4>
+                  <span class="categoria">Perfumaria</span>
+                  <a href="produtos.html" class="btn btn-primary">Saiba Mais</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <button class="carousel-btn next" aria-label="Próximo produto">&gt;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Dicas de Limpeza -->
+    <section class="section section-bg">
+      <div class="container">
+        <h2 style="text-align: center;" class="reveal">Dicas para um Lar Impecável</h2>
+        <div class="dicas-grid">
+          <!-- Dica 1 -->
+          <div class="dica-card reveal">
+            <img src="assets/images/desengordurante.png" alt="Dica sobre limpeza de cozinha">
+            <div class="dica-card-content">
+              <h4><a href="dicas.html">Como eliminar gordura do fogão sem esforço</a></h4>
+              <p>Descubra o método infalível e os produtos certos para deixar seu fogão brilhando.</p>
+            </div>
+          </div>
+          <!-- Dica 2 -->
+          <div class="dica-card reveal">
+            <img src="assets/images/liquido-lava-roupas.png" alt="Dica sobre lavanderia">
+            <div class="dica-card-content">
+              <h4><a href="dicas.html"> Guia para tirar manchas de vinho de tecidos brancos</a></h4>
+              <p>Não se desespere! Siga estes passos simples para recuperar suas roupas favoritas.</p>
+            </div>
+          </div>
+          <!-- Dica 3 -->
+          <div class="dica-card reveal">
+            <img src="assets/images/perfume-rosa.png" alt="Dica sobre limpeza de banheiro">
+            <div class="dica-card-content">
+              <h4><a href="dicas.html">Mantendo o box do banheiro livre de cheiros</a></h4>
+              <p>Uma rotina simples que previne o acúmulo de limo e mantém seu banheiro cheiroso.</p>
+            </div>
+          </div>
+        </div>
+        <div style="text-align: center; margin-top: 2rem;" class="reveal">
+          <a href="dicas.html" class="btn btn-primary">Ver Todas as Dicas</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Newsletter -->
+    <section class="section newsletter-section reveal">
+      <div class="container">
+        <h2>Fique por Dentro</h2>
+        <p>Inscreva-se e receba em primeira mão nossas novidades, dicas de limpeza e promoções exclusivas.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Seu melhor e-mail" aria-label="Seu melhor e-mail" required>
+          <button type="submit" class="btn">Inscrever-se</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- === Rodapé === -->
+  <footer class="main-footer">
+    <div class="container footer-container">
+      
+      <div class="footer-col">
+        <h4>Limpádua</h4>
+        <p>Cuidado Certificado para seu Lar.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="dicas.html">Dicas de Limpeza</a></li>
+          <li><a href="institucional.html">Sobre a Limpádua</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <p>
+          Rua da Limpeza, 123<br>
+          Estrada Pádua/ Pirapetinga, KM 04 - 01000-000<br>
+          (11) 99999-8888<br>
+          contato@limpadua.com.br
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Siga-nos</h4>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook">F</a>
+          <a href="#" aria-label="Instagram">I</a>
+          <a href="#" aria-label="YouTube">Y</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Limpádua. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- === Scripts === -->
+  <script src="js/main.js" defer></script>
+  
+</body>
+</html>

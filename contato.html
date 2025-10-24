@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato - Limpádua</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Folha de Estilo Principal -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- === Cabeçalho === -->
+  <header class="main-header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">Limpádua</a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="dicas.html">Dicas de Limpeza</a></li>
+          <li><a href="institucional.html">Sobre a Limpádua</a></li>
+          <li><a href="contato.html" class="active">Contato</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" aria-label="Abrir menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+  <div id="nav-overlay"></div>
+
+  <!-- === Conteúdo Principal === -->
+  <main>
+
+    <!-- Cabeçalho da Página -->
+    <section class="section page-header">
+      <div class="container reveal">
+        <h1>Entre em Contato</h1>
+        <p>Tem alguma dúvida, sugestão ou parceria? Fale conosco. Estamos prontos para atender você.</p>
+      </div>
+    </section>
+
+    <!-- Seção de Contato (Grid) -->
+    <section class="section section-bg">
+      <div class="container">
+        <div class="contato-grid">
+          
+          <!-- Coluna da Esquerda: Informações e FAQ -->
+          <div class="contato-info reveal">
+            <h3>Informações de Contato</h3>
+            <p>
+              <strong>Endereço:</strong><br>
+             Café Garoto - Estrada Pádua/ Pirapetinga, KM 04 - Lot. Ramos, Santo Antônio de Pádua - RJ, 28470-000
+            </p>
+            <p>
+              <strong>Telefone:</strong> (11) 99999-8888<br>
+              <strong>E-mail:</strong> contato@limpadua.com.br
+            </p>
+            <p>
+              <strong>Horário de Atendimento:</strong><br>
+              Seg. a Sex. das 8h às 18h
+            </p>
+
+            <h3 style="margin-top: 2.5rem;">Perguntas Frequentes (FAQ)</h3>
+            <div class="faq-container">
+              <!-- Item 1 -->
+              <div class="faq-item">
+                <div class="faq-pergunta">Onde posso comprar os produtos?</div>
+                <div class="faq-resposta">
+                  <p>Nossos produtos estão disponíveis nas maiores redes de supermercados do país. Em breve, teremos uma seção "Onde Comprar" com todos os locais.</p>
+                </div>
+              </div>
+              <!-- Item 2 -->
+              <div class="faq-item">
+                <div class="faq-pergunta">Os produtos são testados em animais?</div>
+                <div class="faq-resposta">
+                  <p>Não. A Limpádua tem um compromisso com o bem-estar animal e não realiza testes em animais em nenhuma etapa da produção.</p>
+                </div>
+              </div>
+              <!-- Item 3 -->
+              <div class="faq-item">
+                <div class="faq-pergunta">Como posso solicitar uma amostra?</div>
+                <div class="faq-resposta">
+                  <p>No momento, não trabalhamos com envio de amostras. Fique de olho em nossas redes sociais para ações promocionais e sorteios.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Coluna da Direita: Formulário -->
+          <div class="contato-form reveal">
+            <h3>Envie uma Mensagem</h3>
+            
+            <form id="contato-form" novalidate>
+              <div class="form-group">
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" name="nome" required>
+                <span class="form-error"></span>
+              </div>
+              
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+                <span class="form-error"></span>
+              </div>
+              
+              <div class="form-group">
+                <label for="assunto">Assunto</label>
+                <select id="assunto" name="assunto" required>
+                  <option value="">-- Selecione --</option>
+                  <option value="duvida">Dúvida sobre Produto</option>
+                  <option value="sugestao">Sugestão</option>
+                  <option value="parceria">Parceria Comercial</option>
+                  <option value="outro">Outro</option>
+                </select>
+                <span class="form-error"></span>
+              </div>
+              
+              <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <span class="form-error"></span>
+              </div>
+              
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+              </div>
+
+              <div id="form-success"></div>
+            </form>
+          </div>
+
+        </div> <!-- .contato-grid -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- === Rodapé === -->
+  <footer class="main-footer">
+    <div class="container footer-container">
+      <div class="footer-col"><h4>Limpádua</h4></div>
+      <div class="footer-col">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="dicas.html">Dicas de Limpeza</a></li>
+          <li><a href="institucional.html">Sobre a Limpádua</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <p>Estrada Pádua/ Pirapetinga, KM 04</p>
+      </div>
+      <div class="footer-col">
+        <h4>Siga-nos</h4>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook">F</a>
+          <a href="#" aria-label="Instagram">I</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Limpádua. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- === Scripts === -->
+  <script src="js/main.js" defer></script>
+  
+</body>
+</html>
